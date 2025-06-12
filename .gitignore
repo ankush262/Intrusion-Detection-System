@@ -1,3 +1,4 @@
 MachineLearningCVE\data\CICIDS2017.csv
 *.ps1
 IDS_dev\Source\__pycache__
+__pycache__
