@@ -39,7 +39,7 @@ This project is a real-time **Intrusion Detection System** (IDS) that captures a
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/AnkitV15/Python-CICFlowmeter.git
+git clone https://github.com/AnkitV15/Intrusion-Detection-System.git
 cd Intrusion-Detection-System
 ```
 
@@ -89,6 +89,12 @@ Open your browser and go to:
 
 ```bash
 http://localhost:5000
+```
+
+## Specify in Live traffic monitoring
+
+```bash
+sudo python flowmeter.py --interface INTERFACE --dashboard-url http://localhost:5000/predict
 ```
 
 You’ll see:
